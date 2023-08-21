@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * handle_PATH - handles when a command name is passed
- * @argv: Commandline argument passed in for program name
+ * handle_PATH: - will handles when command name is passed
+ * @argv: argument passed for program name
  * @env: Environment variables
  * @token_array: For command and argument
- * @cmd_count: Command count variable pointer (unused now)
- * Return: Returns -1 if it fails or 0 if it succeeds
+ * @cmd_count: count variable pointer (not used now)
+ * Return: Returns -1 if it fails or 0 if success
  */
 
 int handle_PATH(char **argv, char **env, char **token_array, int *cmd_count)
