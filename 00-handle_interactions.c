@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * handle_interactions - Function that handles the interactive mode
- * @argv: Argument vector for program name or command line arg
- * @env: Environment variable received from main
- * @cmd_count: Keeps track of how many commands entered
- * @mode: Keeps track of the mode interactive or not
+ * handle_interactions - Function to handle interactive mode
+ * @argv: Argument
+ * @env: Environment variable from main
+ * @cmd_count: Keeps track of cmds entered
+ * @mode: shows mode - interactive or not
  * Return: Void
  */
 void handle_interactions(char **argv, char **env, int *cmd_count, int *mode)
@@ -47,12 +47,12 @@ void handle_interactions(char **argv, char **env, int *cmd_count, int *mode)
 }
 
 /**
- * handle_full_Path - captures when the other path tests fails
- * @token_array: Array of tokenized user input
+ * handle_full_Path - shows when other path tests fails
+ * @token_array: Tokenized user input array
  * @env: Environment variables
- * @argv: Access program name from command line
- * @mode: Mode of interaction
- * Return: Void
+ * @argv: Argument to access program name
+ * @mode: The mode of interaction
+ * Return: Void 
  */
 void handle_full_Path(char **token_array, char **env, char **argv, int mode)
 {
@@ -81,13 +81,13 @@ void handle_full_Path(char **token_array, char **env, char **argv, int mode)
 }
 
 /**
- * handle_missing_path27 - Captures special case of check 27 types
- * @in_path: Checks if the command is in the path
- * @token_array: Array of tokenized user input
+ * handle_missing_path27 - Shows special case of check 27 types
+ * @in_path: Checks if command is in the path
+ * @token_array: Tokenized user input array
  * @env: Environment variables
  * @mode: Mode of interaction
- * @cmd_count: Command counts after each command entered
- * @argv: Access program name from command line
+ * @cmd_count: Counts after each command entered
+ * @argv: Argument to access progrm name 
  * Return: Void
  */
 int handle_missing_path27(char *in_path, char **token_array,
