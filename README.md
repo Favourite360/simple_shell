@@ -1,4 +1,4 @@
-<center> <h1>ALX Simple Shell - Stephen Omoregie</h1></center>
+<center> <h1>ALX Simple Shell - Emmanuel Favour & Khawla Habouli</h1></center>
 Writing a Simple Shell using the C Programming Language. This project is one of the Milestone project in my training as a Full Stack Software Engineer in Alx.
 
 ## Introduction
@@ -57,5 +57,6 @@ List of allowed functions and system calls
 ## Custom Functions written to Aid My Implementation
 
 
-## AUTHOR - STEPHEN OMOREGIE <br>
-(ALX Software Engineering Student [August 2023])
+## AUTHOR - EMMANUEL FAVOUR ESU<br>
+## AUTHOR - KHAWLA EL HABOULI
+(August 2023)
