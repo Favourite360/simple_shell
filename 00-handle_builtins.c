@@ -2,7 +2,7 @@
 
 /**
  * handle_builtins: - Prints all environment variables in file
- * @argv: Command arguments
+ * @argv: arguments
  * @env: Envronment variables
  * @token_array: Tokenized user input
  *
@@ -38,7 +38,7 @@ int handle_builtins(char **argv, char **env, char **token_array)
 }
 
 /**
- * exit_func - Builtin functn to terminate current process
+ * exit_func - Builtin function to terminate current process
  * @argv: Argument
  * @env: Environment variables
  * @token_array: user entry token array
