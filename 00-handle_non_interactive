@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * handle_non_interactive_mode - Function that handles the interactive mode
- * @argv: Argument from command line with program name
- * @env: Environment variable received from main
+ * handle_non_interactive_mode: - Function that handles the interactive mode
+ * @argv: Argument with program name
+ * @env: Environment from main
  * Return: Void
  */
 
