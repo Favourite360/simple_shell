@@ -2,15 +2,14 @@
 #include <stddef.h>
 
 /*
- * THIS FILE CONTAINS STRING FUNCTIONS
- * 1. strcat - Concatenates two strings together src to dest
- * 2. str_concat - Concatenates two strings together. Takes care of allocating
- *               memory for the old string and new string size.
- *               you'll probably free str1 when done.
- * 3. strchr - Checks for a character in a string and returns a pointer
- *               to its first occurence
- * 4. strcmp - compares if two strings are a match returns 0 if yes
- * 5. strcpy - Copies all bytes of src to dest (string)
+ * strcat - Concatenates two strings together src to dest
+ * str_concat - Concatenates two strings together. also allocates
+ *               memory for old string new string size.
+ *               may probably free str1 when done.
+ * strchr - Checks for char in a string and returns pointer
+ * 
+ * strcmp - compares if two strings match returns 0 if true
+ * strcpy - Copies all bytes of src to dest (string)
  */
 
 /**
@@ -18,7 +17,7 @@
  * @dest: string to append to
  * @src: string to add
  *
- * Return: a pointer to the resulting string
+ * Return: a pointer to resulting string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -44,10 +43,10 @@ char *_strcat(char *dest, char *src)
 
 /**
  * _strcmp - compares two strings
- * @s1: first string to compare
- * @s2: second string to compare
+ * @s1: first string
+ * @s2: second string
  *
- * Return: less than 0 if s1 is less than s2, 0 if they're equal,
+ * Return: less than 0 if s1 less than s2, 0 if equal,
  * more than 0 if s1 is greater than s2
  */
 
@@ -66,10 +65,11 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * _strcpy - Returns the number of elements in a string
+ * _strcpy - Returns number of elements in string
  * @dest: Destination
  * @src: Source
- * Return: dest (Success)
+ *
+ * Return: dest (for Success)
  */
 
 char *_strcpy(char *dest, char *src)
