@@ -6,6 +6,7 @@
  * @env: Environment variable from main
  * @cmd_count: Keeps track of cmds entered
  * @mode: shows mode - interactive or not
+ *
  * Return: Void
  */
 void handle_interactions(char **argv, char **env, int *cmd_count, int *mode)
