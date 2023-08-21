@@ -5,6 +5,7 @@
  * handle_non_interactive_mode: - Function that handles the interactive mode
  * @argv: Argument with program name
  * @env: Environment from main
+ *
  * Return: Void
  */
 
