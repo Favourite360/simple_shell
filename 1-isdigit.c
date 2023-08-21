@@ -1,8 +1,9 @@
 #include "shell.h"
 
 /**
- * _isdigit - Function checks if char is between/= 0 to 9
- * @c: Only parameter in function
+ * _isdigit - Function to check if char is between/= 0 to 9
+ * @c: Parameter in function
+ *
  * Return: Returns 1 if true 0 if false
  */
 
