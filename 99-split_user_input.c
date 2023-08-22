@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * split_user_input - Splits the user input into tokens
- * and returns a pointer to a dynamically allocated array
- * of strings - NULL terminated
+ * split_user_input -  cmd splits the user input into tokens
+ * 	& returns a pointer to dynamically allocated array
+ * 	of strings - NULL terminated
  * @user_input: String of user input delimited by " \n\t\r" to be plit
- * Return: On Success array of strings char ** or NULL on fail
+ * Return: On Success array of strings char ** or NULL on failing 
  */
 
 char **split_user_input(char *user_input)
