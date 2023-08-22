@@ -1,10 +1,11 @@
 #include "shell.h"
 
 /**
- * find_str_in_path - finds if a string exists in the path
- * @cmd: Command string to be searched in the path
- * @path: retrieved path variable
- * Return: Pointer to string if it it exists or NULL otherwise
+ * find_str_in_path - finds if given string exists in the path
+ * @cmd: the command string to be searched in given path
+ * @path: its retrieved path variable
+ *
+ * Return: pointer to string if it it exists or NULL otherwise
  */
 
 char *find_str_in_path(char *cmd, char *path)
