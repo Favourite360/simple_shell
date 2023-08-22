@@ -13,9 +13,9 @@
 #include <signal.h>
 
 /**
- * struct Built_in - Structure of command and function
- * @cmd: Command to be compared and function called
- * @fnc_cmd: Function to be called when command matches
+ * struct Built_in - Structure of defined command and function
+ * @cmd: Command to be compared & function called
+ * @fnc_cmd: Function to be called if command matches
  */
 
 typedef struct Built_in
