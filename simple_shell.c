@@ -1,19 +1,19 @@
 #include "shell.h"
 
 /**
- * main - A program that emulates the Thompson Shell.
- * @argc: Argument Counter
- * @argv: Argument Variables - Null-terminated array of strings
+ * main - A program that emulates Thompson Shell.
+ * @argc: Argument countr
+ * @argv: Argument Variables - Null terminated array of strings
  * @env: Environment variables
- * Return: Always (0) on success
+ * Return: Always 0 on success
  */
 
 int main(int argc, char **argv, char **env)
 {
 	/**
-	 * Create a variable here that is passed to the
-	 * interactive function and keeps track to increment
-	 * the variable here at every call
+	 * Create variable that is passed to 
+	 * interactive functn and keeps track to increment
+	 * thevariable here at each call
 	 * int cmd_count = 0;
 	 */
 	int cmd_count = 1;
@@ -41,9 +41,9 @@ int main(int argc, char **argv, char **env)
 }
 
 /**
- * free_array_tokens - frees an array of strings
+ * free_array_tokens - frees array of strings
  * @array_tokens: Argument pointer to grid to be freed
- * Return: Always Void;
+ * Return: Always Void or NULL
  */
 
 void free_array_tokens(char **array_tokens)
