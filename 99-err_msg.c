@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * err_msg - Printing custom error message to stderr
- * @fd: File descriptor
- * @num_cmd: Numbeer of commands written so far
- * @s1: First string - name of program
+ * err_msg - Printing custom error message to (stderr)
+ * @fd: File describer
+ * @num_cmd: Numbeer of command written so far on line
+ * @s1: First string - name of the program
  * @s2: Name of command
- * @s3: custom message to be printed
+ * @s3: custom message to be print
  * Return: Void
  */
 
