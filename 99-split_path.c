@@ -1,12 +1,14 @@
 #include "shell.h"
 
 /**
- * split_path - Splits the environment variable path
- * and returns a pointer to a dynamically allocated array
- * of strings - NULL terminated
- * @path_var: String of directories delimited by : to be plit
- * Return: On Success array of strings char ** or NULL on fail
+ * split_path - Splits environment variable path
+ * 	& returns a pointer to defined 
+ 	dynamically allocated array
+ * 	of strings - NULL terminated
+ * @path_var: String of directories delimited by : to be split
+ * Return: On Success array of strings char ** or NULL on failing
  */
+
 char **split_path(char *path_var)
 {
 	char **token_array = NULL;
