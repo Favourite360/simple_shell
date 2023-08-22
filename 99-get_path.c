@@ -2,8 +2,8 @@
 #include "shell.h"
 
 /**
- * get_path - Returns a pointer to the path variable
- * from the environmental variables of the system
+ * get_path - Returns pointer to defined path variable
+ * from the environmental variables of system
  * @env: Environmental Variable
  * Return: Char *pointer to the paths
  */
