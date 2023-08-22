@@ -2,24 +2,24 @@
 #include <stdlib.h>
 
 /*
- * THIS FILE CONTAINS STRING FUNCTIONS
- * 1. strstr - Checks for a substring withing a string
- * 2. strncpy - Copies n bytes from one string to the dest
- * 3. strncat - Concatenates n bytes from src to dest (space must be
- *               allocated in advance for the new concatenation
+ * strstr - Checks for substring within a string
+ * strncpy - Copies n bytes from one string to - dest
+ * strncat - Concatenates n bytes from src to dest (space must be
+ *               allocated before the new concatenation
  *               and the null byte)
- * 4. strlen - Counts the number of bytes in a string
- * 5. strdup - Duplicates one string into another address (mallocs)
+ * strlen - Counts the numbr of bytes in thevstring
+ * strdup - Duplicates one string into another address (--mallocs)
  */
 
 /**
- * _strstr - locates a substring
+ * _strstr - locates a substring location
  * @haystack: string to search in
  * @needle: substring to look for
  *
- * Return: pointer to the beginning of the located substring
- * or NULL if the substring is not found
+ * Return: pointer to beginning of the located substring
+ * or NULL if substring not found
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
@@ -38,9 +38,9 @@ char *_strstr(char *haystack, char *needle)
 }
 
 /**
- * _strlen - Returns the number of elements in a string
- * @s: String argument to be counted
- * Return: Always Sum (Success)
+ * _strlen - Returns number of elements in a string
+ * @s: String argument to bcounted
+ * Return: Always Sum (for Success)
  */
 
 int _strlen(char *s)
@@ -57,10 +57,10 @@ int _strlen(char *s)
 }
 
 /**
- * _strdup - copies the string given as parameter
+ * _strdup - copies the string given as param
  * @str: string to duplicate
  *
- * Return: pointer to the copied string (Success), NULL (Error)
+ * Return: pointer to the copied string (Success), or NULL (Error)
  */
 
 char *_strdup(char *str)
