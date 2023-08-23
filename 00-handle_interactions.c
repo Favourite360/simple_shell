@@ -12,7 +12,6 @@
 void handle_interactions(char **argv, char **env, int *cmd_count, int *mode)
 {
 	char **token_array = process_input(argv, mode), *in_path = NULL;
-
 	if (token_array[0] == NULL || token_array == NULL)
 	{
 		free(token_array[0]), free_array_tokens(token_array);
@@ -53,7 +52,7 @@ void handle_interactions(char **argv, char **env, int *cmd_count, int *mode)
  * @env: Environment variables
  * @argv: Argument to access program name
  * @mode: The mode of interaction
- * Return: Void 
+ * Return: Void
  */
 void handle_full_Path(char **token_array, char **env, char **argv, int mode)
 {
@@ -88,7 +87,7 @@ void handle_full_Path(char **token_array, char **env, char **argv, int mode)
  * @env: Environment variables
  * @mode: Mode of interaction
  * @cmd_count: Counts after each command entered
- * @argv: Argument to access progrm name 
+ * @argv: Argument to access progrm name
  * Return: Void
  */
 int handle_missing_path27(char *in_path, char **token_array,
